@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog SENAI</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/4f8f4b13b7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <div class="logo">SENAI BLOG</div>
+
+    <nav id="menu">
+      <a href="#">Início</a>
+      <a href="#">Notícias</a>
+      <a href="#">Eventos</a>
+      <a href="#">Projetos</a>
+      <a href="#">Contato</a>
+    </nav>
+
+    <button class="btn-publicar">Publicar</button>
+
+    <div class="menu-mobile" id="menu-mobile">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <aside class="sidebar">
+
+      <div class="busca">
+        <input type="text" placeholder="Buscar...">
+      </div>
+
+      <h2>Categorias</h2>
+
+      <div class="categoria">
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=400" alt="">
+        <span>Tecnologia</span>
+      </div>
+
+      <div class="categoria">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=400" alt="">
+        <span>Projetos</span>
+      </div>
+
+      <div class="categoria">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=400" alt="">
+        <span>Cursos</span>
+      </div>
+
+      <div class="categoria">
+        <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=400" alt="">
+        <span>Eventos</span>
+      </div>
+
+    </aside>
+
+    <main>
+
+      <section class="carrossel">
+
+        <div class="slide ativo">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200" alt="">
+          <div class="texto-slide">
+            <h1>Projeto de Robótica</h1>
+            <p>Conheça os novos projetos tecnológicos do SENAI.</p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200" alt="">
+          <div class="texto-slide">
+            <h1>Novos Cursos</h1>
+            <p>Inscrições abertas para cursos técnicos.</p>
+          </div>
+        </div>
+
+        <button class="anterior">&#10094;</button>
+        <button class="proximo">&#10095;</button>
+
+      </section>
+
+      <section class="secao">
+        <h2>Destaques</h2>
+
+        <div class="cards">
+
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=600">
+            <div class="conteudo">
+              <span>Tecnologia</span>
+              <h3>Laboratório Inteligente</h3>
+              <p>Novo espaço tecnológico inaugurado.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=600">
+            <div class="conteudo">
+              <span>Projetos</span>
+              <h3>Feira Científica</h3>
+              <p>Alunos apresentam soluções inovadoras.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=600">
+            <div class="conteudo">
+              <span>Cursos</span>
+              <h3>Curso de Programação</h3>
+              <p>Aprenda HTML, CSS e JavaScript.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="secao">
+        <h2>Recentes</h2>
+
+        <div class="cards">
+
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=600">
+            <div class="conteudo">
+              <span>Eventos</span>
+              <h3>Semana da Tecnologia</h3>
+              <p>Palestras e workshops gratuitos.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=600">
+            <div class="conteudo">
+              <span>Educação</span>
+              <h3>Novas Turmas</h3>
+              <p>Matrículas abertas para 2026.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=600">
+            <div class="conteudo">
+              <span>Equipe</span>
+              <h3>Professores SENAI</h3>
+              <p>Conheça nossos especialistas.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
