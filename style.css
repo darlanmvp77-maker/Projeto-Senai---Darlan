@@ -10,7 +10,6 @@ body{
   color:#222;
 }
 
-/* HEADER */
 
 header{
   width:100%;
@@ -64,14 +63,12 @@ nav a:hover{
   cursor:pointer;
 }
 
-/* CONTAINER */
 
 .container{
   display:flex;
   margin-top:80px;
 }
 
-/* SIDEBAR */
 
 .sidebar{
   width:260px;
@@ -117,14 +114,11 @@ nav a:hover{
   border-radius:10px;
 }
 
-/* MAIN */
-
 main{
   flex:1;
   padding:25px;
 }
 
-/* CARROSSEL */
 
 .carrossel{
   position:relative;
@@ -184,8 +178,6 @@ main{
 .proximo{
   right:20px;
 }
-
-/* SEÇÕES */
 
 .secao{
   margin-bottom:50px;
@@ -271,6 +263,10 @@ main{
 
   .btn-publicar{
     display:none;
+  }
+
+  .btn-publicar:hover{
+    color:#ad6a3a;
   }
 
   .cards{
